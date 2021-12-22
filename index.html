@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Entrevista para o Will</title>
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container"> <!-- div container !-->
+
+	<div id="fundoGame" class="fundoGame"> <!-- div fundoGame !-->
+	
+		<div id="inicio" onclick="start()">
+			 
+			<div align="left" ><img src="./imgs/perfil.jpg" alt="logo" align="left" height=20% width=20%></div>
+			<!-- div inicio !-->
+			<div align= "center">
+				<h1> Ajude o Will à chegar na entrevista </h1>
+				<p><br>O Will esta indo para as intrevistas, mas estão tentando atropela-lo</p>
+				<p> <br> Utilize a tecla W para movimentar o helicóptero para cima <br> Utilize a tecla S para movimentar o helicóptero para baixo <br> Utilize a tecla D para atirar.</p>
+				<p> <br> <h3>O objetivo é descer até o Will para dar uma carona!</h3></p>
+				<p><br>Você só tem 3 vidas, portanto não colida com outros veiculos!</p>
+				<p>Ah, você ganha pontos para cada inimigo destruido :D</p>
+			</div>
+			<div class="botoes">
+				<button role="button" class="botao"> <i class="fas fa-play"></i>Clique aqui para iniciar!!</button> 
+			</div>
+		</div> <!-- Fim da div inicio !-->
+		
+    </div> <!-- Fim da div fundoGame !-->
+	
+</div> <!-- Fim da div container !-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script> 
+<script type="text/javascript" src="js/jquery-collision.min.js"></script>
+<!-- Sons do jogo !-->
+<audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+<audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+</body>
+</html>
